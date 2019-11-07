@@ -44,15 +44,15 @@ except(IOError, ImportError):
 
 requirements = [
     'tqdm',
-    'numpy',
+    'numpy==1.16.0',
     'cython',
     'scipy',
     'matplotlib',
     'requests',
     'pytest',
     'paramiko==2.5.0',
-    'distributed==2.6.0',
-    'dask[complete]==2.6.0',
+    'dask[complete]==2.5.2',
+    'distributed==2.5.1',
     'tornado',
     'ConfigSpace==0.4.10',
     'nose',
